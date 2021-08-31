@@ -8,7 +8,7 @@
     "use strict";
     
     var cfg = {
-        scrollDuration : 800, // smoothscroll duration
+        scrollDuration : 500, // smoothscroll duration
         mailChimpURL   : 'https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e6957d85dc'   // mailchimp url
     },
 
@@ -40,7 +40,7 @@
             // will first fade out the loading animation 
             $("#loader").fadeOut("slow", function() {
                 // will fade out the whole DIV that covers the website.
-                $("#preloader").delay(300).fadeOut("slow");
+                $("#preloader").delay(100).fadeOut("slow");
             }); 
             
             // for hero content animations 
@@ -226,7 +226,7 @@
                         var $this = $(this);
 
                         $({ Counter: 0 }).animate({ Counter: $this.text() }, {
-                            duration: 4000,
+                            duration: 3000,
                             easing: 'swing',
                             step: function (curValue) {
                                 $this.text(Math.ceil(curValue));
@@ -311,7 +311,7 @@
     var clAlertBoxes = function() {
 
         $('.alert-box').on('click', '.alert-box__close', function() {
-            $(this).parent().fadeOut(500);
+            $(this).parent().fadeOut(200);
         }); 
 
     };
