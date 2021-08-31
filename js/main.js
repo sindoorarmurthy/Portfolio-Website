@@ -70,13 +70,13 @@
                 hdr.removeClass('sticky');
             }
 
-            if (loc > triggerHeight + 10) {
+            if (loc > triggerHeight + 8) {
                 hdr.addClass('offset');
             } else {
                 hdr.removeClass('offset');
             }
 
-            if (loc > triggerHeight + 120) {
+            if (loc > triggerHeight + 100) {
                 hdr.addClass('scrolling');
             } else {
                 hdr.removeClass('scrolling');
@@ -323,9 +323,9 @@
         
         AOS.init( {
             offset: 200,
-            duration: 500,
+            duration: 450,
             easing: 'ease-in-sine',
-            delay: 210,
+            delay: 190,
             once: true,
             disable: 'mobile'
         });
