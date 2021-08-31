@@ -576,7 +576,8 @@ textarea {
 @media only screen and (max-width:600px) {
 
   #content-mobile_icons {
-    display: block;
+    display: flex;
+    flex-direction: row;
 
   }
   .row {
