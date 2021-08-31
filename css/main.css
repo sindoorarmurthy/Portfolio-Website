@@ -2105,12 +2105,24 @@ input::-moz-focus-inner {
   transition: all 0.5s ease-in-out;
 }
 
-.home-social i {
-  display: inline-block;
+.home-soc {
+  
   font-size: 40px;
   text-align: center;
   width: 45px;
   height: 45px;
+  display: flex;
+  margin-top: -6%;
+  flex-direction: row;
+
+}
+
+.home-social i {
+  display: inline-block;
+  font-size: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
   margin-top: 5%;
   line-height: 60px;
   right: 0;
@@ -2510,13 +2522,6 @@ html.no-csstransitions .home-content__main {
   background-image: url(../images/icons/icon-branding.svg);
 }
 
-.about-process .item-process__header--implementation::before {
-  background-image: url(../images/icons/icon-implementation.svg);
-}
-
-.about-process .item-process__header--documentation::before {
-  background-image: url(../images/icons/icon-documentation.svg);
-}
 
 
 /* ------------------------------------------------------------------- 

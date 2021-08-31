@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Merriweather:300,400,400i,700|Libre+Baskerville:700");
 @import url("font-awesome/css/fontawesome-all.css");
 
+#content-mobile_icons {
+  display: none;
+}
 
 html {
   font-family: sans-serif;
@@ -571,6 +574,11 @@ textarea {
  * ## mobile devices
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:600px) {
+
+  #content-mobile_icons {
+    display: block;
+
+  }
   .row {
     width: auto;
     padding-left: 25px;
