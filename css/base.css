@@ -578,7 +578,7 @@ textarea {
   #content-mobile_icons {
     display: flex;
     flex-direction: row;
-    justify-items: center;
+    margin-left: 20%;
 
   }
   .row {
