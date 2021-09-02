@@ -7,7 +7,9 @@
 }
 
 
-.click-for-more {
+
+
+.click-for-more-mob {
    
   opacity: 60%;
   text-shadow: #777;
@@ -20,6 +22,20 @@
    
    -webkit-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out;}
+   
+  .click-for-more {
+   
+    opacity: 60%;
+    text-shadow: #777;
+    font-size: x-large;
+     margin-top: -5%;
+     font-style: italic;
+     padding:70px;
+     line-height: 60px;
+     text-align: left;
+     
+     -webkit-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;}
 
 html {
   font-family: sans-serif;
@@ -589,6 +605,10 @@ textarea {
  * ## mobile devices
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:600px) {
+
+  #content-not-for-mob {
+    display: none;
+  }
 
   #content-mobile_icons {
     display: flex;
