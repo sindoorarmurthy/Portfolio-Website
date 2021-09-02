@@ -7,16 +7,16 @@
 }
 
 
-.scroll-for-more {
+.click-for-more {
    
   opacity: 60%;
   text-shadow: #777;
   font-size: x-large;
    margin-top: -5%;
    font-style: italic;
-   padding: 70px;
+   
    line-height: 60px;
-   text-align: left;
+   text-align: center;
    
    -webkit-transition: all 0.3s ease-in-out;
    transition: all 0.3s ease-in-out;}
