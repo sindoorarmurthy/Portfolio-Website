@@ -6,6 +6,20 @@
   display: none;
 }
 
+
+.scroll-for-more {
+   
+  opacity: 60%;
+  text-shadow: #777;
+  font-size: x-large;
+   margin-left: -73%;
+   font-style: italic;
+   line-height: 60px;
+   text-align: center;
+   
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;}
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
